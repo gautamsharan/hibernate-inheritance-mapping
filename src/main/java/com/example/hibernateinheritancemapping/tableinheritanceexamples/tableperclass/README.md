@@ -30,7 +30,7 @@ all other class extends it.
 +--------------+--------------+------+-----+---------+-------+
 ```
 
-### TA
+### TA (tpc_ta)
 ```angular2html
 +------------+--------------+------+-----+---------+-------+
 | Field      | Type         | Null | Key | Default | Extra |
@@ -42,7 +42,7 @@ all other class extends it.
 | rating     | int          | YES  |     | NULL    |       |
 +------------+--------------+------+-----+---------+-------+
 ```
-### Instructor
+### Instructor (tpc_instructor)
 ```angular2html
 +------------+--------------+------+-----+---------+-------+
 | Field      | Type         | Null | Key | Default | Extra |
