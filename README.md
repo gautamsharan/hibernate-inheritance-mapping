@@ -6,8 +6,8 @@ To address this, the JPA specification provides several strategies:
 
  - <b><i>MappedSuperclass</i></b> – the parent classes, can’t be entities
  - <b><i>Single Table</i></b> – The entities from different classes with a common ancestor are placed in a single table.
- - <b><i>Joined Table</i></b> – Each class has its table, and querying a subclass entity requires joining the tables.
- - <b><i>Table per Class</i></b> – All the properties of a class are in its table, so no join is required.
+ - <b><i>Joined Table</i></b> – Each class has its table, and querying a subclass entity requires joining the tables. [e.g](/src/main/java/com/example/hibernateinheritancemapping/tableinheritanceexamples/joinedclass)
+ - <b><i>Table per Class</i></b> – All the properties of a class are in its table, so no join is required. [e.g](/src/main/java/com/example/hibernateinheritancemapping/tableinheritanceexamples/tableperclass)
 
 Each strategy results in a different database structure.
 
